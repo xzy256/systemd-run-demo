@@ -1,0 +1,18 @@
+INFO: 2020/08/20 14:56:51 Config user: slave
+INFO: 2020/08/20 14:56:51 Config stageDir: /var/hdfs-mount
+INFO: 2020/08/20 14:56:51 Config trashDir: /tmp/hdfsMountTrash
+INFO: 2020/08/20 14:56:51 Config confDir: /search/odin/hadoopconf/conf.polaris
+INFO: 2020/08/20 14:56:51 Config replication: 2
+INFO: 2020/08/20 14:56:51 Config maxReadAhead: 128 M
+INFO: 2020/08/20 14:56:51 Config allowedPrefixes: [*]
+INFO: 2020/08/20 14:56:51 Current head GITCommit:  d14a742 , Built time:  2020-07-27T14:08:46+0800 , Built by: gd_67_213
+INFO: 2020/08/20 14:56:51 Connected to name node
+INFO: 2020/08/20 14:56:51 Connected to name node
+INFO: 2020/08/20 14:56:51 Connected to name node
+INFO: 2020/08/20 14:56:51 Mounted successfully
+INFO: 2020/08/20 14:57:08 [ / ]ReadDirAll
+INFO: 2020/08/20 14:57:10 [ / ]ReadDirAll
+INFO: 2020/08/20 14:57:19 Signal received: terminated
+INFO: 2020/08/20 14:57:19 Unmounting...
+INFO: 2020/08/20 14:57:19 Closing...
+INFO: 2020/08/20 14:57:19 Closed...
