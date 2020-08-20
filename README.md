@@ -6,7 +6,7 @@ make
 
 
 ## run
-./server
+./server  
 ./test
 
 ## Compare
