@@ -1,5 +1,5 @@
 ## Introduce
-This project aim to startup third part binary server in your program and kill it another gracefully. If your entry program(or main) not exit, kill child thread leads `zombie process `
+This demo aim to startup third part binary server in your program and kill it another gracefully. If your entry program(or main) not exit, kill child thread leads `zombie process `
 
 ## build
 make
