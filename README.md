@@ -1,5 +1,5 @@
 ## Introduce
-This demo aim to startup third part binary server in your program and kill it another gracefully. If your entry program(or main) not exit, kill child thread leads `zombie process `
+This demo aim to startup third part binary server in your program and kill it another gracefully by `systemd-run`. If your entry program(or main) not exit, kill child thread leads `zombie ` process
 
 ## build
 make
@@ -10,8 +10,8 @@ make
 ./test
 
 ## Compare
-### exec.Command
-this example shows `exec.Command` to exec a binary, but when your main thread not exit, you kill this thread, it will be `zombie` thread, until your main thread exit.
+### old way
+this example shows `exec.Command` to exec a binary. When main thread not exit and kill the thread, it will lead `zombie` thread, until your main thread exit.
 ```
 func mount() int {
 	cmd := exec.Command("/search/odin/commands/binary/hdfs-mount/hdfs-mount.latest", "-confPath=/search/odin/hadoopconf/conf.polaris",
@@ -46,5 +46,5 @@ func mount() int {
 	return cmd.Process.Pid
 }
 ```
-### systemd-run
-this way exec binary thread that is managed systemd, you can kill it gracefully, not be `zombie` thread
+### new way
+this way exec binary thread that is managed systemd, you can kill it gracefully, not be lead `zombie` thread
