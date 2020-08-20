@@ -7,7 +7,7 @@ make
 
 ## run
 ./server
-.test
+./test
 
 ## Compare
 ### exec.Command
